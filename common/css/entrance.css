@@ -1,0 +1,48 @@
+
+.entrance_bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background:
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url("../img/general/bg06.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+.entrance_title{
+	text-align: center;
+	margin: 2em 0em;
+	color: #fff;
+}
+
+.entrance_logo{
+	display: inline-block;
+	width: 140px;
+	height: 48px;
+	background: url("../img/general/each_logo_w.svg") no-repeat;
+	margin-bottom: 1em;
+}
+
+.entrance_box {
+	padding: 2em;
+	background:#fff;
+	border-radius:4px;
+	max-width: 620px;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	display: none;
+	opacity: 0.0;
+}
+
+
+.entrance_box h3{
+	margin-bottom: 1em;
+}
+
+
+/* .join {display: none; opacity: 0.0;}
+.login {display: none; opacity: 0.0;} */

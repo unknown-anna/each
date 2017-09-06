@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>each(イーチ) | すべてのLGBTのためのSNS</title>
+
+	<!-- styleSheet -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Javascript -->
+	<link rel="javascript" href="js/jquery-1.12.1.min.js">
+	<script src="https://use.fontawesome.com/2a238dff2a.js"></script>
+
+
+ </style>
+
+</head>
+<body>
+	<header>
+			<nav id="mnav">
+				<div class="inner clearfix">
+					<a href="index.html" title=""><img src="img/general/logo_w.png" alt="logo"></a>
+					<ul class="mmenu">
+						<li><a href="#" title="マイページ">マイページ</a></li>
+						<li><a href="#" title="友だち">友だち</a></li>
+						<li><a href="#" title="メンバー">メンバー</a></li>
+						<li><a href="#" title="グループ">グループ</a></li>
+						<li><a href="#" title="F&amp;Q">F&amp;Q</a></li>
+						<li><a href="#" title="設定">設定</a></li>
+						<li><a href="#" title="通知"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- left-->
+	<div class="content clearfix inner">
+		<article class="left">
+			<section class="wall_box">
+
+				<ul class="wall_menu">
+					<li class="visiting_mark"><p><i class="fa fa-comment-o" aria-hidden="true"></i></p><p>つぶやき</p><a href="#"></a></li><li>
+					<p><i class="fa fa-book" aria-hidden="true"></i></p><p>日記</p><a href="#"></a></li><li>
+					<p><i class="fa fa-group" aria-hidden="true"></i></p><p>グループ</p><a href="#"></a></li><li>
+					<p><i class="fa fa-envelope-o" aria-hidden="true"></i></p><p>メッセージ</p><a href="#"></a></li>
+				</ul>
+				
+				<div class="wall_post_list">
+				
+					<!-- postform -->
+					<div class="wall_form clearfix">
+						<p>なにをつぶやこう？</p>
+						<p><textarea name="wall_text"></textarea></p>
+						<span class="wall_attach_button">
+							<i class="fa fa-picture-o" aria-hidden="true"></i>
+						</span>
+						<div class="form_right">
+							<select name="public_level">
+								<option value="friend">友だちに</option>
+								<option value="all">全体に</option>
+							</select>
+							<input type="submit" name="wall_submit" class="btn_green" value="つぶやく">
+						</div>
+					</div>
+					
+					<ul class="wall_sort">
+						<li class="wall_selecting_so"><p><i class="fa fa-smile-o" aria-hidden="true"></i></p><p>友だちの<a href="#"></a></p></li><li>
+						<p><i class="fa fa-circle-o" aria-hidden="true"></i></p><p>全体の<a href="#"></a><p></li><li>
+						<p><i class="fa fa-user" aria-hidden="true"></i></p><p>自分の<a href="#"></a></p></li><li>
+						<p><i class="fa fa-star" aria-hidden="true"></i></p><p>クリップ<a href="#"></a></p></li>
+					</ul>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon3.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix clearfix">
+							<h4><a href="#" title="">みけやん</a></h4>
+							<p>こんなところでしかノロケられないから言っちゃいます。今日は私の誕生日でした。彼女から前日に用事が入ったと言われて悲しかったんだけど、突然のサプライズで私、号泣。もうホントに感謝しかないよ。いつも一緒にいてくれて本当にありがとう。あなたのおかげで私、幸せだよ。これからも一緒に支えあって生きていきます。</p>
+							<div class="wall_post_img x1 clearfix">
+								<div class="wall_img_box">
+									<img src="img/general/wall_img01.jpg" alt="img">
+								</div>
+							</div>
+							<p class="right_align"><small><span>2016.06.13 23:54</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon1.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">とま</a></h4>
+							<p>このまえ作ったカレーなんだけど、１日寝かせたらすごいおいしくなった！圧力鍋をつかったからお肉もホロホロ〜。</p>
+							<p class="right_align"><small><span>2016.06.10 13:04</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon2.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">十吾@やきにくにくん</a></h4>
+							<p>店長まじ神か。バイト終わったあとにステーキおごってもらた！パンとかもメッチャ食べてマジ腹いっぱいだわ−…。店長ごちそうさまでしたー！！！…好きかも…。</p>
+							<div class="wall_post_img clearfix">
+								<div class="wall_img_box x3">
+									<img src="img/general/wall_img04.jpg" alt="img2">
+								</div>
+								<div class="wall_img_box x3">
+									<img src="img/general/wall_img05.jpg" alt="img2">
+								</div>
+								<div class="wall_img_box x3">
+									<img src="img/general/wall_img06.jpg" alt="img2">
+								</div>
+							</div>
+							<p class="right_align"><small><span>2016.06.01 02:23</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon4.gif" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">アリスステラ</a></h4>
+							<p>こんな時間に目がさめちゃった…。どうしよ、寝れなぃ…。</p>
+							<p class="right_align"><small><span>2016.05.31 3:54</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon5.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">Wiz</a></h4>
+							<p>生足の季節がｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!生足hshs！！暑いけどそれだけのために生きていけるッッ！！！</p>
+							<p class="right_align"><small><span>2016.05.23 08:12</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon6.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">涙子</a></h4>
+							<p>ちょっと、アケミが急に倒れちゃったの・・・幻想御手（レベルアッパー）を使ったら倒れちゃうなんて・・・あたし知らなくて・・・何で、こんなことに。あたし、そんなつもりじゃ・・・</p>
+							<p class="right_align"><small><span>2016.05.10 16:36</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon7.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">ヒゲ</a></h4>
+							<p>舛添さんは疑惑と失策をあげつらわれて石持て追われることになって、そのことは長く記憶されるだろうけど、独自の雇用対策を進めたり五輪費用を巡って文科相とガチでぶつかったり、『東京防災』を都内全戸配布・pdf無料公開・紙版140円一般販売した功績のほうも長く語られるべきだと思うよ。</p>
+							<p class="right_align"><small><span>2016.05.02 20:41</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon8.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">りィな</a></h4>
+							<p>さんざん出てるけど「みりお今夜も離さないぜー！！」のあといつも以上に「うぇい！うぇい！うぇーい！！」って言ってる真咲さん可愛かったw 照れ隠し？w</p>
+							<p class="right_align"><small><span>2016.05.02 21:26</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+
+					<div class="wall_post clearfix">
+						<div class="wall_post_profimg">
+							<div class="cut_img">
+								<a href="#" title="">
+									<img src="img/general/icon9.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="wall_post_text clearfix">
+							<h4><a href="#" title="">あにぽる@プロフ詐欺</a></h4>
+							<p>やーーーーーーーっっっっっっっとセーバーのコス衣装出来たーーー！！！今年のコミケはこれで参戦するお！！てかちょっとキツイｗｗｗｗあと２ヶ月半でどうにかやせねばｗｗｗｗｗ</p>
+							<div class="wall_post_img clearfix">
+								<div class="wall_img_box x2">
+									<img src="img/general/wall_img02.jpg" alt="img2">
+								</div>
+								<div class="wall_img_box x2">
+									<img src="img/general/wall_img03.jpg" alt="img2">
+								</div>
+							</div>
+							<p class="right_align"><small><span>2016.05.02 01:19</span></small></p>
+							<p class="right_align specific_menu">
+								<small><a href="#">コメント(0)</a><a href="#">いいね(0)</a><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>シェア</a><a href="#" title=""><i class="fa fa-star" aria-hidden="true"></i>クリップ</a></small>
+							</p>
+						</div>
+					</div>
+					<p style="text-align:center;"><small><a href="#">つぶやきをもっとみる</a></small></p>
+				</div>
+			</section>
+
+		</article>
+
+		<!-- right block-->
+		<article class="right">
+			<section class="right_content_wrap">
+				<h3>オンラインメンバー</h3>
+				<div class="right_content_normal_block clearfix">
+					<ul class="online_member">
+						<li><a href="#" title="とま"><img src="img/general/icon1.jpg" alt="とま"></a></li>
+						<li><a href="#" title="十吾@やきにくにくん"><img src="img/general/icon2.jpg" alt="十吾@やきにくにくん"></a></li>
+						<li><a href="#" title="みけやん"><img src="img/general/icon3.jpg" alt="みけやん"></a></li>
+						<li><a href="#" title="アリスステラ"><img src="img/general/icon4.gif" alt="アリスステラ"></a></li>
+						<li><a href="#" title="Wiz"><img src="img/general/icon5.png" alt="Wiz"></a></li>
+						<li><a href="#" title="涙子"><img src="img/general/icon6.jpg" alt="涙子"></a></li>
+						<li><a href="#" title="ひげ"><img src="img/general/icon7.jpg" alt="ひげ"></a></li>
+						<li><a href="#" title="りィな"><img src="img/general/icon8.png" alt="りィな"></a></li>
+						<li><a href="#" title="あにぽる@プロフ詐欺"><img src="img/general/icon9.png" alt="あにぽる@プロフ詐欺"></a></li>
+						<li><a href="#" title="ハク"><img src="img/general/icon10.jpg" alt="ハク"></a></li>
+						<li><a href="#" title="モズく"><img src="img/general/icon11.png" alt="モズく"></a></li>
+						<li><a href="#" title="橙"><img src="img/general/icon12.png" alt="橙"></a></li>
+						<li><a href="#" title="けんと"><img src="img/general/icon13.jpg" alt="けんと"></a></li>
+						<li><a href="#" title="こばやし"><img src="img/general/icon14.jpg" alt="こばやし"></a></li>
+						<li><a href="#" title="ゆかぽん"><img src="img/general/icon15.jpg" alt="ゆかぽん"></a></li>
+						<li><a href="#" title="あーや"><img src="img/general/icon16.jpg" alt="あーや"></a></li>
+						<li><a href="#" title="まさ"><img src="img/general/icon17.jpg" alt="まさ"></a></li>
+						<li><a href="#" title="Ryo"><img src="img/general/icon18.jpg" alt="Ryo"></a></li>
+						<li><a href="#" title="Slash"><img src="img/general/icon19.jpg" alt="Slash"></a></li>
+						<li><a href="#" title="一はじめ"><img src="img/general/icon20.jpg" alt="一はじめ"></a></li>
+					</ul>
+					<p class="online_msg"><span>24</span>人がオンライン</p>
+				</div>
+				<p style="text-align:right;"><small><a href="" title="">もっとみる&raquo;</a></small></p>
+			</section>
+
+			<section class="right_content_wrap">
+				<h3>開催予定のイベント</h3>
+				<div class="event_card">
+					<img src="img/general/event02.jpg" alt="eventimg">
+					<div class="event_text">
+						<h4>アナログゲーム適当会</h4>
+						<p><span class="event_date">6/25</span>東京・渋谷か新宿</p>
+					</div>
+					<a href="#" title=""></a>
+				</div>
+				<div class="event_card">
+					<img src="img/general/event03.jpg" alt="eventimg">
+					<div class="event_text">
+						<h4>はらぺこピクニックオフ会</h4>
+						<p><span class="event_date">7/2</span>東京・上野</p>
+					</div>
+					<a href="#" title=""></a>
+				</div>
+				<div class="event_card">
+					<img src="img/general/event04.jpg" alt="eventimg">
+					<div class="event_text">
+						<h4>たちうおを食べる会</h4>
+						<p><span class="event_date">8/5</span>大阪・未定</p>
+					</div>
+					<a href="#" title=""></a>
+				</div>
+				<p style="text-align:right;"><small><a href="" title="">もっとみる&raquo;</a></small></p>
+			</section>
+
+			<section class="right_content_wrap">
+				<h3>運営からのお知らせ</h3>
+				<div class="right_content_block">
+					<ul class="notifi_manage">
+						<li>
+							<p>不正利用についての対応</p>
+							<p><small>Jun02 20:42</small></p><a href="#"></a>
+						</li>
+						<li>
+							<p>新機能「イベント」について</p>
+							<p><small>May12 19:02</small></p><a href="#"></a>
+						</li>
+						<li>
+							<p>不具合普及のお知らせ</p>
+							<p><small>May05 02:21</small></p><a href="#"></a>
+						</li>
+						<li>
+							<p>【5/4】メンテナンス実施します。</p>
+							<p><small>Apr30 14:33</small></p><a href="#"></a>
+						</li>
+						<li>
+							<p>withベータ版について。</p>
+							<p><small>Apr01 17:16</small></p><a href="#"></a>
+						</li>
+					</ul>
+				</div>
+				<p style="text-align:right;"><small><a href="" title="">もっとみる&raquo;</a></small></p>
+			</section>
+			
+			<section class="right_content_wrap">
+			<h3>友だちを探す</h3>
+				<div class="right_content_normal_block">
+					<form class="friend_search_form" action="">
+						<p>名前：</p>
+						<p><input type="text" name="hname" value=""></p>
+						<p>都道府県：</p>
+						<p>
+							<select name="city">
+								<option value="">とくになし</option>
+								<option value="hokkaido">北海道</option>
+								<option value="aomori">青森</option>
+								<option value="akita">秋田</option>
+								<option value="iwate">岩手</option>
+								<option value="yamagata">山形</option>
+								<option value="miyagi">宮城</option>
+								<option value="fukushima">福島</option>
+								<option value="niigata">新潟</option>
+								<option value="tochigi">栃木</option>
+								<option value="gunma">群馬</option>
+							</select>
+						</p>
+						<p>セクシュアル：</p>
+						<p>
+							<select name="sexual">
+								<option value="">とくになし</option>
+								<option value="gay">ゲイ</option>
+								<option value="lesbian">レズビアン</option>
+								<option value="bisexual">バイセクシュアル</option>
+								<option value="asexual">アセクシュアル</option>
+								<option value="FTM">FTM</option>
+								<option value="FTX">FTX</option>
+								<option value="MTF">MTF</option>
+								<option value="MTX">MTX</option>
+								<option value="xgender">Xジェンダー</option>
+								<option value="nonsexual">ノンセクシュアル</option>
+							</select>
+						</p>
+						<p>年齢：</p>
+						<p class="age_input"><input type="text" name="age_smaller" value="">~<input type="text" name="age_bigger" value=""></p>
+						<p>キーワード：</p>
+						<p><input type="text" name="free-key" value=""></p>
+						<input type="submit" name="friend_search_btn" value="さがす" class="btn_green">
+					</form>
+				</div>
+			</section>
+
+		</article>
+	</div>
+
+	<footer>
+		<div class="inner">
+			<ul>
+				<li>運営チームについて<a href="#"></a></li><li>
+				プライバシーポリシー<a href="#"></a></li><li>
+				利用規約<a href="#"></a></li><li>
+				お問い合わせ<a href="#"></a></li>
+			</ul>
+			<p>&copy;each | すべてのLGBTのためのSNS</p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,227 @@
+/* --------------------------------------
+
+General setting 
+
+-------------------------------------- */
+
+@charset "utf-8";
+
+body, html, ul, li, h1, h2, h3, h4, h5, p, form, input, 
+button, div, article, nav, section, a, textarea {
+	margin:0; padding:0; box-sizing:border-box;
+}
+
+textarea, input, button, select, option {
+	font: 100%/1.6em Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+	background:#fff; border:1px solid #ccc; border-radius:4px; color:#505050;
+}
+
+
+
+button:focus,input:focus,textarea:focus{outline-style:none; box-shadow:none;}
+button,input[type="submit"]{cursor:pointer; font-size:90%; padding:4px 16px;}
+
+select {
+	background: #fff;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	font-size: 80%;
+	height: 40px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background:url('../img/general/arr_select.jpg') no-repeat right,#fff;
+}
+
+option {
+	border-radius:0;
+	border:none;
+	padding: 0.5em;
+}
+
+input{padding: 0.5em 1em;width:100%;}
+form p:nth-child(2n){margin-bottom:24px;}
+
+p{margin-bottom:10px;}
+
+
+/* button setting */
+.btn_green{background:#46B473;color: #fff;border:none;padding: 0.5em 1em;}
+.btn_green:link{color:#fff;}
+
+.btn_invisible{background:none;color: #fff;border:1px #fff solid;padding: 0.5em 1em;}
+.btn_invisible:link{color:#fff;}
+
+.btn_full_widht{ width: 100%; }
+.btn_large{ min-width: 220px; }
+.btn_medium{ min-width: 180px; }
+.btn_small{ min-width: 120px; }
+
+
+
+
+body{
+	font: 100%/1.6em "Verdana", Roboto,
+	 "游ゴシック", "Yu Gothic" , "游ゴシック体" , "YuGothic" , 
+	 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 
+	 "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック", "MS PGothic" , sans-serif;
+	letter-spacing:0.1em;
+	color:#505050;
+	width:100%;
+	height:100%;
+	word-break:break-all;
+	overflow-wrap:break-word;
+	background:#fafafa;
+}
+
+a:link{text-decoration:none; color:#0073de;}
+a:visited{color:#0073de;}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.content{padding:4em 0em;}
+.inner{margin:0 auto; height:100%; margin:0% 5%;}
+section{margin-bottom:60px;}
+small.time{color:#aaa;}
+
+
+
+.right_align {
+	text-align:right;
+	width:100%;
+	font-size:90%;
+}
+
+/* --------------------------------------
+
+for PC
+
+-------------------------------------- */
+
+.for_pc{display:block;}
+.for_sp{display:none;}
+
+
+/* --------------------------------------
+
+header
+
+-------------------------------------- */
+
+header{
+	font-size:80%;
+}
+
+header ul{
+	text-align:right;
+}
+
+header ul li{ 
+	display: inline-block;
+	margin-left: 20px;
+	text-align: right;
+	vertical-align:baseline;
+	}
+
+header ul li:first-child{
+	margin-left: 0px;
+}
+
+header a:link{text-decoration:none; color:#fff;}
+header a:visited{color:#fff;}
+
+
+/* --------------------------------------
+
+Nav
+
+-------------------------------------- */
+
+#mnav, #subnav{
+	padding: 1.6em 0em;
+}
+
+#mnav{
+	background:#46b473;
+}
+
+#mnav img{
+	float:left;
+	max-width:100%;
+}
+
+
+
+/* --------------------------------------
+
+Footer
+
+-------------------------------------- */
+
+footer{
+	padding:2em 0em;
+	background:#fafafa;
+	text-align:center;
+	color:#505050;
+	font-size:80%;
+	height: 10em;
+}
+
+footer p{
+	margin:0;
+}
+
+footer ul{
+	text-align:center;
+	list-style-type:none;
+	width:100%;
+	margin-bottom:20px;
+}
+
+footer ul li{
+	position:relative;
+	display:inline-block;
+	width:25%;
+	box-sizing:border-box;
+}
+
+
+footer ul li a{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+
+
+/* --------------------------------------
+
+		for SP
+
+-------------------------------------- */
+
+@media screen and (max-width: 840px) {
+
+	.for_pc,.for_pc_inline,.quick_search_form{display:none;}
+	.for_sp{display:block;}
+	.for_spsearch{display:inline-block;}
+
+}
+
+@media screen and (max-width: 680px) {
+
+	.for_pc,#mnav,#subnav,.right{display:none;}
+	.for_sp{display:block;}
+
+	.inner{margin:0;}
+
+}
+
+
